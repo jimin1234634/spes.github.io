@@ -5,11 +5,16 @@ layout: single
 author_profile: false
 ---
 <style>
-  .product-grid {
+ .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+  product-grid {
+  place-items: center;
 }
 
 .product-card {
