@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Spiritus et Spes"
-
+author_profile: true
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -60,8 +60,8 @@ plugins:
 
 author:
   name   : Spiritus et Spes
-  avatar : /assets/image/profile.png
-  bio    : Breath, Sip, Begin again.
+  avatar : /profile.png
+  bio: Breath, Sip, Begin again.
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
