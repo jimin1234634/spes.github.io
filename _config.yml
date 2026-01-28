@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : Spiritus et Spes
-  avatar : /profile.png
+  avatar : /assets/image/profile.png
   bio: Breath, Sip, Begin again.
   links:
     - label: "Instagram"
