@@ -44,36 +44,25 @@ author_profile: false
 
 <div class="product-grid">
 
-  <!-- 상품 1 -->
   <div class="product-card">
     <img src="/assets/images/sample1.jpg" alt="상품 1">
     <h3>상품명 01</h3>
     <p>간단한 설명</p>
-    <a class="product-btn" href="https://example.com" target="_blank">
-      구매하기
-    </a>
+    <a class="product-btn" href="#" target="_blank">구매하기</a>
   </div>
 
-  <!-- 상품 2 -->
   <div class="product-card">
     <img src="/assets/images/sample1.jpg" alt="상품 2">
     <h3>상품명 02</h3>
     <p>두 번째 상품 설명</p>
-    <a class="product-btn" href="https://example.com" target="_blank">
-      구매하기
-    </a>
+    <a class="product-btn" href="#" target="_blank">구매하기</a>
   </div>
 
-  <!-- 상품 3 -->
   <div class="product-card">
     <img src="/assets/images/sample1.jpg" alt="상품 3">
     <h3>상품명 03</h3>
     <p>세 번째 상품 설명</p>
-    <a class="product-btn" href="https://example.com" target="_blank">
-      구매하기
-    </a>
+    <a class="product-btn" href="#" target="_blank">구매하기</a>
   </div>
 
 </div>
-
-
