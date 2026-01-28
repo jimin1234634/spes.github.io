@@ -60,14 +60,14 @@ plugins:
 
 author:
   name   : Spiritus et Spes
-  avatar : /assets/image/profile.png 
+  avatar : /assets/image/profile.png
   bio    : Breath, Sip, Begin again.
 
 footer:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/spes.196"
 
 defaults:
   # _posts
