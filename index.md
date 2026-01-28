@@ -1,7 +1,9 @@
 ---
-layout: single
+layout: splash
 author_profile: false
-sidebar: false
+header:
+  overlay_color: "#ffffff"
+  overlay_filter: "0.9"
 ---
 
 Spiritus et Spes
