@@ -45,7 +45,7 @@ author_profile: false
 <div class="product-grid">
 
   <div class="product-card">
-    <img src="/assets/sample1.jpg" alt="상품 1">
+    <img src="/assets/images/sample1.jpg" alt="상품 1">
     <h3>상품명 01</h3>
     <p>간단한 설명</p>
     <a class="product-btn" href="https://example.com" target="_blank">
