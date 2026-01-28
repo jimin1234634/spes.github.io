@@ -1,14 +1,11 @@
 ---
 layout: splash
 author_profile: false
+title: "Spiritus et Spes"
 header:
-  overlay_color: "#ffffff"
-  overlay_filter: "0.9"
-  excperpt: "당신의 삶에 희망을 남기다."
+  overlay_color: "#000000"
+  overlay_filter: "0.6"
+  excerpt: "Breath, Sip, Begin again"
 ---
-
-Spiritus et Spes
-Breath, Sip, Begin again
-
 빠르게 흘러가는 일상 속에서 
 잠시 멈추어 한 모금 쉬어가는 순간을 담습니다. 
