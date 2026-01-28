@@ -4,6 +4,7 @@ author_profile: false
 header:
   overlay_color: "#ffffff"
   overlay_filter: "0.9"
+  experpt: "당신의 삶에 희망을 남기다."
 ---
 
 Spiritus et Spes
