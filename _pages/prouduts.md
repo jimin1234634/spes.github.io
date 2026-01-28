@@ -45,6 +45,28 @@ author_profile: false
   text-decoration: none;
   font-size: 14px;
 }
+
+ .product-card {
+  width: 260px;
+  height: 360px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+ 
 </style>
 
 <div class="product-grid">
