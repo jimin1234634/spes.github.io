@@ -95,3 +95,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  siderbar: 
+    nav: false
+
+    author_profile: false
