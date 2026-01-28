@@ -8,7 +8,7 @@ author_profile: false
 ## Products
 
 Spiritus et Spes의 상품을 소개합니다.  
-잠시 멈추고, 숨 쉬고, 다시 시작하는 순간을 담았습니다.
+
 
 ---
 
