@@ -13,7 +13,7 @@ author_profile: false
   max-width: 900px;
   margin: 0 auto;
 }
-  product-grid {
+.product-grid {
   place-items: center;
 }
 
