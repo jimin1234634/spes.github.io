@@ -12,10 +12,12 @@ author_profile: false
   justify-content: center;
   max-width: 900px;
   margin: 0 auto;
+
+ justify-items: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
-.product-grid {
-  place-items: center;
-}
+
 
 .product-card {
   border: 1px solid #e5e5e5;
