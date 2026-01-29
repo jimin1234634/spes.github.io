@@ -33,7 +33,7 @@ author_profile: false
 </style>
 
 <div class="link-buttons">
-  <a class="link-btn" href="https://instagram.com/네인스타" target="_blank">
+  <a class="link-btn" href="https://instagram.com/spes.196" target="_blank">
     📸 Instagram
   </a>
 </div>
