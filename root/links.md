@@ -1,20 +1,16 @@
 ---
-title: "Links"
-permalink: /links/
+title: Links
 layout: single
-author_profile: false
+permalink: /links/
 ---
 
-## 🌐 Official Links
+<div class="link-buttons">
 
-- **Instagram**  
-  https://instagram.com/계정명
+<a class="link-btn" href="https://instagram.com/네계정" target="_blank">Instagram</a>
 
-- **Store**  
-  https://smartstore.naver.com/스토어주소
+<a class="link-btn" href="https://blog.naver.com/네블로그" target="_blank">Blog</a>
 
-- **Portfolio / Notion**  
-  https://notion.so/주소
+<a class="link-btn" href="mailto:your@email.com">Email</a>
 
-- **Contact**  
-  mailto:your@email.com
+</div>
+
