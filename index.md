@@ -51,5 +51,22 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
   </div>
 </div>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Noto+Sans+KR:wght@300;400&display=swap');
+
+/* 🔥 히어로 이미지 안 메인 타이틀만 */
+.page__hero .page__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* 🔥 히어로 이미지 안 슬로건만 */
+.page__hero .page__lead {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+</style>
 
 
