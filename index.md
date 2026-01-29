@@ -51,26 +51,3 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
   </div>
 </div>
 
-/* Stardom 폰트 등록 */
-@font-face {
-  font-family: 'Stardom-Regular';
-  src: url('/assets/fonts/stardom/Stardom-Regular.woff2') format('woff2'),
-       url('/assets/fonts/stardom/Stardom-Regular.woff') format('woff'),
-       url('/assets/fonts/stardom/Stardom-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 기본 폰트 설정 (한글은 시스템, 영문은 Stardom) */
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-               'Apple SD Gothic Neo', 'Noto Sans KR',
-               'Malgun Gothic', sans-serif;
-}
-
-/* 타이틀에 Stardom 적용 */
-h1, .hero-title {
-  font-family: 'Stardom-Regular', serif;
-  letter-spacing: 0.02em; /* 감성 살짝 */
-}
