@@ -4,7 +4,7 @@ title: "Spiritus et Spes"
 header:
   overlay_image: /assets/images/hero-rock.jpg
   overlay_filter: 0.45
-  caption: "© Spiritus et Spes"
+
 ---
 
 <div class="fade-up">
