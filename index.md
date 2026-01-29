@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: splash
 title: "Spiritus et Spes"
 header:
   overlay_image: /assets/images/hero-rock.jpg
