@@ -52,26 +52,25 @@ title: "Spiritus et Spes"
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Noto+Sans+KR:wght@300;400;500&display=swap');
 
-/* 전체 기본 폰트 */
-body {
-  font-family: 'Noto Sans KR', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-/* 메인 타이틀 */
-.page__hero--overlay .page__title,
+/* 로고 / 메인 타이틀 */
+.site-title,
 .page__title {
-  font-family: 'Noto Serif KR', serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2rem;
+  letter-spacing: 0.02em;
 }
 
-/* 부제 / 설명 문구 */
-.page__hero--overlay .page__lead,
-.fade-up {
+/* 슬로건 */
+.page__lead {
+  font-family: 'Italianno', cursive;
+  font-size: 1.6rem;
+  letter-spacing: 0.15em;
+}
+
+/* 본문 */
+body {
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 400;
 }
 </style>
-
