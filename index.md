@@ -87,7 +87,12 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
 }
 </style>
 
-<h1 class="hero-title">Spiritus et Spes</h1>
-<p class="custom-font">Breath, Sip, Begin Again</p>
+<style>
+/* hero 오버레이 타이틀 */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  font-family: 'Stardom', serif;
+}
+</style>
 
 
