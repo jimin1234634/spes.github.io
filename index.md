@@ -69,4 +69,25 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
 }
 </style>
 
+<style>
+@font-face {
+  font-family: 'Stardom';
+  src: url('/assets/fonts/stardom/Stardom-Regular.woff2') format('woff2'),
+       url('/assets/fonts/stardom/Stardom-Regular.woff') format('woff'),
+       url('/assets/fonts/stardom/Stardom-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 폰트 적용할 부분만 */
+.hero-title,
+.custom-font {
+  font-family: 'Stardom', serif;
+}
+</style>
+
+<h1 class="hero-title">Spiritus et Spes</h1>
+<p class="custom-font">Breath, Sip, Begin Again</p>
+
 
