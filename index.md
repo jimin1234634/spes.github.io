@@ -48,3 +48,30 @@ title: "Spiritus et Spes"
     <p>빠르게 흐르는 일상 속에서<br>잠시 멈추어 숨을 고릅니다.</p>
   </div>
 </div>
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+
+/* 전체 기본 폰트 */
+body {
+  font-family: 'Noto Sans KR', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 메인 타이틀 */
+.page__hero--overlay .page__title,
+.page__title {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* 부제 / 설명 문구 */
+.page__hero--overlay .page__lead,
+.fade-up {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+}
+</style>
+
