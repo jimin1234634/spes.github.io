@@ -1,13 +1,8 @@
 ---
-layout: home
-title: >
-  <span class="hero-title">Spiritus et Spes</span>
-excerpt: >
-  <span class="hero-lead">Breath, Sip, Begin Again</span>
-header:
-  overlay_image: /assets/images/hero-rock.jpg
-  overlay_filter: rgba(0, 0, 0, 0.25)
+title: Spiritus et Spes
+excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니다.
 ---
+
 <style>
 .main-visual {
   position: relative;
@@ -56,24 +51,4 @@ header:
 </div>
 
 
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Noto+Sans+KR:wght@300;400;500&display=swap');
-
-/* 🔥 히어로 이미지 안 제목 */
-.hero-title {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3.2rem;
-  letter-spacing: 0.02em;
-}
-
-/* 🔥 히어로 이미지 안 슬로건 */
-.hero-lead {
-  font-family: 'Italianno', cursive;
-  font-size: 1.6rem;
-  letter-spacing: 0.15em;
-}
-
-/* ❗ 전역(body, site-title 등) 절대 안 건드림 */
-</style>
 
