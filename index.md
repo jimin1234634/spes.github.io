@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Spiritus et Spes"
 excerpt: "빠르게 흐르는 일상 속에서, 잠시 숨을 고릅니다."
 faginate: false
