@@ -1,44 +1,29 @@
 ---
-title: Our Story
-permalink: /story/
-layout: single
-author_profile: false
+layout: page
+title: "Spiritus et Spes"
+header:
+  overlay_image: /assets/images/hero-rock.jpg
+  overlay_filter: 0.45
+  caption: "© Spiritus et Spes"
 ---
+
+<div class="fade-up">
+빠르게 흐르는 일상 속에서  
+잠시 멈추어 한 모금 쉬어가는 순간을 담습니다.
+</div>
 
 <style>
 .fade-up {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  animation: fadeUp 0.9s ease forwards;
+  animation-delay: 0.3s;
 }
-.fade-up.show {
-  opacity: 1;
-  transform: translateY(0);
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
-
-<div class="fade-up">
-빠르게 흘러가는 일상 속에서  
-잠시 멈추어 한 모금 쉬어가는 순간을 담습니다.
-</div>
-
-<div class="fade-up" style="margin-top:40px;">
-숨을 고르고,  
-다시 시작할 수 있도록.
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const items = document.querySelectorAll(".fade-up");
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      }
-    });
-  }, { threshold: 0.2 });
-
-  items.forEach(el => observer.observe(el));
-});
-</script>
