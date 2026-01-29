@@ -99,3 +99,8 @@ tag_archive:
     nav: false
 
     author_profile: false
+   
+    # Custom CSS
+css:
+  - /assets/css/custom.css
+
