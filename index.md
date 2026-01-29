@@ -1,13 +1,9 @@
 ---
-layout: splash
-author_profile: false
+layout: home
 title: "Spiritus et Spes"
-tagline: "Breath, Sip, Begin again"
+excerpt: "빠르게 흐르는 일상 속에서, 잠시 숨을 고릅니다."
 header:
-  overlay_image: /profile.png
-  overlay_color: "#000000"
-  overlay_filter: "0.6"
+  overlay_image: /assets/images/hero-rock.jpg
+  overlay_filter: 0.45
+  caption: "© Spiritus et Spes"
 ---
-빠르게 흘러가는 일상 속에서 
-잠시 멈추어 한 모금 쉬어가는 순간을 담습니다. 
-
