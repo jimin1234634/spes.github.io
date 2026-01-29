@@ -51,27 +51,9 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
   </div>
 </div>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Noto+Sans+KR:wght@300;400&display=swap');
-
-/* 🔥 히어로 이미지 안 메인 타이틀만 */
-.page__hero .page__title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
-/* 🔥 히어로 이미지 안 슬로건만 */
-.page__hero .page__lead {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-}
-</style>
-
-<style>
+/* Stardom 폰트 등록 */
 @font-face {
-  font-family: 'Stardom';
+  font-family: 'Stardom-Regular';
   src: url('/assets/fonts/stardom/Stardom-Regular.woff2') format('woff2'),
        url('/assets/fonts/stardom/Stardom-Regular.woff') format('woff'),
        url('/assets/fonts/stardom/Stardom-Regular.ttf') format('truetype');
@@ -80,19 +62,15 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
   font-display: swap;
 }
 
-/* 폰트 적용할 부분만 */
-.hero-title,
-.custom-font {
-  font-family: 'Stardom', serif;
+/* 기본 폰트 설정 (한글은 시스템, 영문은 Stardom) */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               'Apple SD Gothic Neo', 'Noto Sans KR',
+               'Malgun Gothic', sans-serif;
 }
-</style>
 
-<style>
-/* hero 오버레이 타이틀 */
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead {
-  font-family: 'Stardom', serif;
+/* 타이틀에 Stardom 적용 */
+h1, .hero-title {
+  font-family: 'Stardom-Regular', serif;
+  letter-spacing: 0.02em; /* 감성 살짝 */
 }
-</style>
-
-
