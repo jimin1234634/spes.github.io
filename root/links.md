@@ -1,4 +1,10 @@
 ---
+title: "Links"
+layout: single
+classes: wide
+---
+
+---
 title: Links
 layout: single
 permalink: /links/
