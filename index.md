@@ -1,6 +1,11 @@
 ---
 layout: splash
 title: "Spiritus et Spes"
+header:
+  overlay_image: /assets/images/sample1.jpg
+  overlay_filter: rgba(0,0,0,0.35)
+  overlay_title: "Spiritus et Spes"
+  overlay_excerpt: "빠르게 흐르는 일상 속에서<br>잠시 멈추어 숨을 고릅니다."
 ---
 
 <div class="main-visual">
