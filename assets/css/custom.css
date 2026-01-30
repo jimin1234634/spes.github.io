@@ -7,3 +7,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* 히어로 제목만 */
+.page__hero--overlay .page__title {
+  font-family: 'Stardom', serif !important;
+}
