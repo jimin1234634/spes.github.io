@@ -17,10 +17,8 @@
       margin: 0;
       padding: 0;
       font-family: 'Playfair Display', serif;
-      scroll-behavior: smooth;
     }
 
-    /* top navigation */
     .top-nav {
       position: fixed;
       top: 24px;
@@ -35,69 +33,151 @@
       font-size: 0.9rem;
       color: #111;
       opacity: 0.7;
-      transition: opacity 0.2s ease;
     }
 
     .top-nav a:hover {
       opacity: 1;
     }
 
-    /* hero */
     .hero {
       height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      position: relative;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       text-align: center;
+      color: white;
     }
 
-    .hero h1 {
-      font-size: 3.5rem;
+    .hero-text h1 {
+      font-size: 3rem;
       margin: 0;
-      letter-spacing: 0.05em;
     }
 
-    .hero p {
-      margin-top: 16px;
-      font-size: 1.1rem;
-      opacity: 0.8;
-    }
-
-    /* content sections */
-    .content {
-      max-width: 720px;
-      margin: 120px auto;
-      padding: 0 20px;
-      line-height: 1.8;
-    }
-
-    .content h2 {
-      font-size: 1.6rem;
-      margin-bottom: 16px;
-    }
-
-    .content ul {
-      padding-left: 18px;
-    }
-
-    .content a {
-      color: #111;
+    .hero-text p {
+      margin-top: 12px;
+      opacity: 0.85;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- navigation -->
+  <!-- navigation (페이지 이동) -->
   <nav class="top-nav">
-    <a href="#products">Products</a>
-    <a href="#links">Links</a>
-    <a href="#about">About</a>
+    <a href="/products">Products</a>
+    <a href="/links">Links</a>
+    <a href="/about">About</a>
   </nav>
 
   <!-- hero -->
   <section class="hero">
-    <div>
+    <img src="/assets/images/hero-web.jpg" alt="Main Image">
+    <div class="hero-text">
+      <h1>Spiritus et Spes</h1>
+      <p>희망과 숨결 사이에서</p>
+    </div>
+  </section>
+
+</body>
+</html> <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spiritus et Spes</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .top-nav {
+      position: fixed;
+      top: 24px;
+      right: 40px;
+      display: flex;
+      gap: 24px;
+      z-index: 1000;
+    }
+
+    .top-nav a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      color: #111;
+      opacity: 0.7;
+    }
+
+    .top-nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      height: 100vh;
+      position: relative;
+    }
+
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .hero-text p {
+      margin-top: 12px;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- navigation (페이지 이동) -->
+  <nav class="top-nav">
+    <a href="/products">Products</a>
+    <a href="/links">Links</a>
+    <a href="/about">About</a>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero">
+    <img src="/assets/images/hero-web.jpg" alt="Main Image">
+    <div class="hero-text">
       <h1>Spiritus et Spes</h1>
       <p>희망과 숨결 사이에서</p>
     </div>
