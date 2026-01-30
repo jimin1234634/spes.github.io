@@ -1,14 +1,30 @@
+/* Stardom 폰트 등록 */
 @font-face {
   font-family: 'Stardom';
-  src: url('/assets/fonts/stardom/Stardom-Regular.woff2') format('woff2'),
-       url('/assets/fonts/stardom/Stardom-Regular.woff') format('woff'),
-       url('/assets/fonts/stardom/Stardom-Regular.ttf') format('truetype');
+  src:
+    url('/assets/fonts/stardom/Stardom-Regular.woff2') format('woff2'),
+    url('/assets/fonts/stardom/Stardom-Regular.woff') format('woff'),
+    url('/assets/fonts/stardom/Stardom-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* 히어로 제목만 */
-.page__hero--overlay .page__title {
-  font-family: 'Stardom', serif !important;
+/* 기본 텍스트는 시스템 폰트 유지 */
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Apple SD Gothic Neo',
+    'Noto Sans KR',
+    'Malgun Gothic',
+    sans-serif;
+}
+
+/* ✅ 히어로(스플래시) 제목만 Stardom 적용 */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  font-family: 'Stardom', serif;
+  letter-spacing: 0.02em;
 }
