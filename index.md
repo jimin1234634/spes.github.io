@@ -50,3 +50,19 @@ excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니�
     <p>빠르게 흐르는 일상 속에서<br>잠시 멈추어 숨을 고릅니다.</p>
   </div>
 </div>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Noto+Serif+KR:wght@300;400&display=swap');
+
+.page__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.page__lead {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
+  line-height: 1.8;
+}
+</style>
