@@ -1,52 +1,18 @@
 ---
 layout: splash
-title: Spiritus et Spes
-excerpt: 빠르게 흐르는 일상 속에서 잠시 멈추어 숨을 고릅니다.
+title: "Spiritus et Spes"
+header:
+  overlay_image: /assets/images/hero.jpg
+  overlay_filter: 0.3
+  caption: ""
 ---
 
 <style>
-.main-visual {
-  position: relative;
-  width: 100%;
-  max-height: 90vh;
-  overflow: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 
-.main-visual img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-  display: block;
-}
-
-.main-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-.main-text h1 {
-  font-size: 3rem;
-  margin-bottom: 12px;
-}
-
-.main-text p {
-  font-size: 1.2rem;
-  line-height: 1.6;
+.page__hero--overlay .page__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  letter-spacing: 0.08em;
 }
 </style>
-
-
-
-
-<div class="main-visual">
-  <img src="/assets/images/hero-rock.jpg" alt="main image">
-
-  <div class="main-text">
-    <h1>Spiritus et Spes</h1>
-    <p>빠르게 흐르는 일상 속에서<br>잠시 멈추어 숨을 고릅니다.</p>
-  </div>
-</div>
