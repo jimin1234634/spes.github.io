@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: "Spiritus et Spes"
 header:
   overlay_image: /assets/images/sample1.jpg
   overlay_filter: rgba(0,0,0,0.35)
