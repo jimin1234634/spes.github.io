@@ -26,10 +26,10 @@
 
     .top-nav a {
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #222;
       opacity: 0.85;
-      letter_spacing: 0.05em;
+      letter_spacing: 0.15em;
     }
 
     .top-nav a:hover {
@@ -77,12 +77,14 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 64px;
+  height: 56px; 
   background: rgba(255, 255, 255, 0.9); /* 완전 흰색이면 1 */
+  background-filter: blur(6px);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 30;
+  
+  z-index: 20;
 }
 
 
