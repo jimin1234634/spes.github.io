@@ -3,44 +3,6 @@ layout: splash
 title: "Spiritus et Spes"
 ---
 
-<style>
-.main-visual {
-  position: relative;
-  width: 100%;
-  max-height: 90vh;
-  overflow: hidden;
-}
-
-.main-visual img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-  display: block;
-}
-
-.main-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-.main-text h1 {
-  font-size: 3rem;
-  margin-bottom: 12px;
-}
-
-.main-text p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-</style>
-
-
-
-
 <div class="main-visual">
   <img src="/assets/images/hero-rock.jpg" alt="main image">
 
