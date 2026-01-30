@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Spiritus et Spes</title>
 
-  <!-- Google Font (Stardom 느낌 대체: Playfair Display) -->
+  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
 
   <style>
-  html, body {
-  margin: 0;
-  padding: 0;
-}
-    
-    body {
+    html, body {
       margin: 0;
+      padding: 0;
       font-family: 'Playfair Display', serif;
+      scroll-behavior: smooth;
     }
-    
-<nav class="top-nav">
-  <a href="#products">Products</a>
-  <a href="#links">Links</a>
-  <a href="#about">About</a>
-</nav>
-    
+
+    /* top navigation */
+    .top-nav {
+      position: fixed;
+      top: 24px;
+      right: 40px;
+      display: flex;
+      gap: 24px;
+      z-index: 1000;
+    }
+
+    .top-nav a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      color: #111;
+      opacity: 0.7;
+      transition: opacity 0.2s ease;
+    }
+
+    .top-nav a:hover {
+      opacity: 1;
+    }
+
+    /* hero */
     .hero {
       height: 100vh;
       display: flex;
@@ -46,117 +63,71 @@
       opacity: 0.8;
     }
 
+    /* content sections */
     .content {
       max-width: 720px;
-      margin: 80px auto;
+      margin: 120px auto;
       padding: 0 20px;
       line-height: 1.8;
     }
-.top-nav {
-  position: fixed;
-  top: 24px;
-  right: 40px;
-  display: flex;
-  gap: 24px;
-  z-index: 1000;
-}
 
-.top-nav a {
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: #111;
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
-}
+    .content h2 {
+      font-size: 1.6rem;
+      margin-bottom: 16px;
+    }
 
-.top-nav a:hover {
-  opacity: 1;
-}
-    
+    .content ul {
+      padding-left: 18px;
+    }
+
+    .content a {
+      color: #111;
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- 여기 아래에 index.md 내용 붙여넣기 -->
-  <section class="content">
-    <!-- index.md에서 복사한 내용 -->
+  <!-- navigation -->
+  <nav class="top-nav">
+    <a href="#products">Products</a>
+    <a href="#links">Links</a>
+    <a href="#about">About</a>
+  </nav>
 
-<style>
-.main-visual {
-  position: relative;
-  width: 100%;
-  max-height: 90vh;
-  overflow: hidden;
-}
-
-.main-visual img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-  display: block;
-}
-
-.main-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-.main-text h1 {
-  font-size: 3rem;
-  margin-bottom: 12px;
-}
-
-.main-text p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-</style>
-
-
-
-
-<div class="main-visual">
-  <img src="/assets/images/hero-rock.jpg" alt="main image">
-
-  <div class="main-text">
-    <h1>Spiritus et Spes</h1>
-    <p>빠르게 흐르는 일상 속에서<br>잠시 멈추어 숨을 고릅니다.</p>
-  </div>
-</div>
+  <!-- hero -->
+  <section class="hero">
+    <div>
+      <h1>Spiritus et Spes</h1>
+      <p>희망과 숨결 사이에서</p>
+    </div>
   </section>
 
-</body>
-</html>
+  <!-- products -->
+  <section id="products" class="content">
+    <h2>Products</h2>
+    <p>
+      Spiritus et Spes에서 제작한 사진, 기록, 인쇄물들을 소개합니다.
+    </p>
+  </section>
 
-</section>
+  <!-- links -->
+  <section id="links" class="content">
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+      <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    </ul>
+  </section>
 
-<section id="products" class="content">
-  <h2>Products</h2>
-  <p>
-    Spiritus et Spes에서 제작한 사진, 기록, 인쇄물들을 소개합니다.
-  </p>
-</section>
-
-<section id="links" class="content">
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-    <li><a href="https://github.com" target="_blank">GitHub</a></li>
-  </ul>
-</section>
-
-<section id="about" class="content">
-  <h2>About</h2>
-  <p>
-    빠르게 흐르는 일상 속에서 잠시 멈추어,
-    이미지와 문장으로 숨을 고르는 공간입니다.
-  </p>
-</section>
+  <!-- about -->
+  <section id="about" class="content">
+    <h2>About</h2>
+    <p>
+      빠르게 흐르는 일상 속에서 잠시 멈추어,<br>
+      이미지와 문장으로 숨을 고르는 공간입니다.
+    </p>
+  </section>
 
 </body>
 </html>
