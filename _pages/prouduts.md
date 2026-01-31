@@ -5,61 +5,60 @@ permalink: /products/
 ---
 
 <style>
-/* ===== Products Page ===== */
-.products {
-  max-width: 1100px;
-  margin: 120px auto 160px;
-  padding: 0 24px;
+.products-section {
+  padding: 120px 8vw;
 }
 
-.products h1 {
-  text-align: center;
-  letter-spacing: 0.2em;
-  margin-bottom: 80px;
-}
-
-/* Grid */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 48px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  align-items: start;
 }
 
-/* Card */
 .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
+/* 이미지 영역 */
 .product-card img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  max-width: 320px;
+  height: 220px;
   object-fit: cover;
-  margin-bottom: 20px;
+  background: #eee; /* 이미지 없을 때 대비 */
+  margin-bottom: 32px;
 }
 
-.product-name {
+/* 제목 */
+.product-card h3 {
   font-size: 0.9rem;
-  letter-spacing: 0.12em;
-  margin-bottom: 8px;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
 }
 
-.product-desc {
+/* 설명 */
+.product-card p {
   font-size: 0.75rem;
   opacity: 0.7;
   margin-bottom: 18px;
 }
 
-/* Button */
-.product-btn {
+/* 버튼 */
+.product-card .btn {
   display: inline-block;
-  padding: 10px 28px;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
+  padding: 8px 28px;
   border: 1px solid #111;
-  transition: all 0.3s ease;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  color: #111;
 }
 
-.product-btn:hover {
+.product-card .btn:hover {
   background: #111;
   color: #fff;
 }
@@ -69,21 +68,21 @@ permalink: /products/
   <div class="products-grid">
 
     <div class="product-card">
-      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
+      <img src="/assets/images/sample1.jpg" alt="">
       <h3>PRODUCT 01</h3>
       <p>Brief description</p>
       <a class="btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
+      <img src="/assets/images/sample2.jpg" alt="">
       <h3>PRODUCT 02</h3>
       <p>Brief description</p>
       <a class="btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
+      <img src="/assets/images/sample3.jpg" alt="">
       <h3>PRODUCT 03</h3>
       <p>Brief description</p>
       <a class="btn" href="#">VIEW</a>
