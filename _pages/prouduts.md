@@ -94,4 +94,4 @@ author_profile: false
     <a class="product-btn" href="#" target="_blank">구매하기</a>
   </div>
 
-</div> 백업
+</div> 
