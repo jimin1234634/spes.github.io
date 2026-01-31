@@ -65,29 +65,29 @@ permalink: /products/
 }
 </style>
 
-<section class="products">
-  <h1>PRODUCTS</h1>
-
+<section class="products-section">
   <div class="products-grid">
+
     <div class="product-card">
-      <img src="/assets/images/sample1.jpg" alt="">
-      <div class="product-name">PRODUCT 01</div>
-      <div class="product-desc">Brief description</div>
-      <a class="product-btn" href="#">VIEW</a>
+      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
+      <h3>PRODUCT 01</h3>
+      <p>Brief description</p>
+      <a class="btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="/assets/images/sample1.jpg" alt="">
-      <div class="product-name">PRODUCT 02</div>
-      <div class="product-desc">Brief description</div>
-      <a class="product-btn" href="#">VIEW</a>
+      <img src="{{ '/assets/images/sample2.jpg' | relative_url }}" alt="">
+      <h3>PRODUCT 02</h3>
+      <p>Brief description</p>
+      <a class="btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="/assets/images/sample1.jpg" alt="">
-      <div class="product-name">PRODUCT 03</div>
-      <div class="product-desc">Brief description</div>
-      <a class="product-btn" href="#">VIEW</a>
+      <img src="{{ '/assets/images/sample3.jpg' | relative_url }}" alt="">
+      <h3>PRODUCT 03</h3>
+      <p>Brief description</p>
+      <a class="btn" href="#">VIEW</a>
     </div>
+
   </div>
 </section>
