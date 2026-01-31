@@ -69,6 +69,28 @@ permalink: /links/
     font-size: 0.75rem;
   }
 }
+
+  /* ===== 기본 마크다운 제목 & 링크 색 제거 ===== */
+main h1,
+main h2,
+main h3 {
+  color: #111;
+  text-decoration: none;
+}
+
+main a {
+  color: #111;
+  text-decoration: none;
+}
+
+main a:visited {
+  color: #111;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+  
 </style>
 
 <section class="links-hero">
