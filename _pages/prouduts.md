@@ -8,7 +8,7 @@ permalink: /products/
 /* ===== Products Hero ===== */
 .products-hero {
   height: 60vh;
-  background: url("/assets/images/hero-sunset.jpg") center / cover no-repeat;
+  background: url("/assets/images/hero-sunset.jpeg") center / cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
