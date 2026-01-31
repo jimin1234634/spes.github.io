@@ -76,14 +76,14 @@ permalink: /products/
     </div>
 
     <div class="product-card">
-      <img src="{{ '/assets/images/sample2.jpg' | relative_url }}" alt="">
+      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
       <h3>PRODUCT 02</h3>
       <p>Brief description</p>
       <a class="btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="{{ '/assets/images/sample3.jpg' | relative_url }}" alt="">
+      <img src="{{ '/assets/images/sample1.jpg' | relative_url }}" alt="">
       <h3>PRODUCT 03</h3>
       <p>Brief description</p>
       <a class="btn" href="#">VIEW</a>
