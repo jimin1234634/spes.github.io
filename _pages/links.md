@@ -1,39 +1,76 @@
 ---
+layout: default
 title: Links
-permalink: /links/
-layout: single
-author_profile: false
 ---
 
 <style>
-.link-buttons {
-  max-width: 420px;
-  margin: 60px auto;
+/* LINKS HERO */
+.links-hero {
+  height: 100vh;
+  background: url("/assets/images/hero-rock.jpg") center / cover no-repeat;
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
-.link-btn {
-  display: block;
-  padding: 15px;
+.links-hero-text {
   text-align: center;
-  border: 1px solid #111;
-  border-radius: 10px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #111;
-  transition: 0.2s ease;
 }
 
-.link-btn:hover {
-  background: #111;
-  color: #fff;
+.links-hero-text h1 {
+  color: white;
+  letter-spacing: 0.25em;
+  background: rgba(0,0,0,0.35);
+  padding: 20px 36px;
+}
+
+.links-hero-text p {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: white;
+  opacity: 0.85;
+}
+
+/* 버튼 */
+.hero-btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 10px 28px;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.6);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: white;
+  color: #111;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .links-hero-text h1 {
+    font-size: 1.1rem;
+    padding: 16px 24px;
+  }
 }
 </style>
 
-<div class="link-buttons">
-  <a class="link-btn" href="https://instagram.com/midnight.take" target="_blank">
-    📸 Instagram
-  </a>
-</div>
+<section class="links-hero">
+  <div class="links-hero-text">
+    <h1>LINKS</h1>
+    <p>Faith, Image, and Quiet Hope</p>
+
+    <a
+      href="https://instagram.com/계정명"
+      target="_blank"
+      class="hero-btn"
+    >
+      Instagram
+    </a>
+  </div>
+</section>
