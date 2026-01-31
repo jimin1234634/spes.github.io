@@ -55,7 +55,7 @@ permalink: /links/
 <section class="links-hero">
   <div class="links-hero-content">
     <h1>LINKS</h1>
-    <a class="link-btn" href="https://instagram.com/might.take" target="_blank">
+    <a class="link-btn" href="https://instagram.com/midnight.take" target="_blank">
       📷 INSTAGRAM
     </a>
   </div>
