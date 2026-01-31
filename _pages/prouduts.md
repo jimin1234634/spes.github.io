@@ -77,14 +77,14 @@ permalink: /products/
     </div>
 
     <div class="product-card">
-      <img src="/assets/images/sample2.jpg" alt="">
+      <img src="/assets/images/sample1.jpg" alt="">
       <div class="product-name">PRODUCT 02</div>
       <div class="product-desc">Brief description</div>
       <a class="product-btn" href="#">VIEW</a>
     </div>
 
     <div class="product-card">
-      <img src="/assets/images/sample3.jpg" alt="">
+      <img src="/assets/images/sample1.jpg" alt="">
       <div class="product-name">PRODUCT 03</div>
       <div class="product-desc">Brief description</div>
       <a class="product-btn" href="#">VIEW</a>
