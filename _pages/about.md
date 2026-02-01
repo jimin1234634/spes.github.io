@@ -94,14 +94,6 @@ permalink: /about/
   </p>
  
 
-  <div class="about-products">
-    <span>TUMBLER</span>
-    <span>BAG</span>
-    <span>POSTER</span>
-    <span>PRINT</span>
-    <span>ZINE</span>
-  </div>
-
   <p>
     Spiritus et Spes의 제품들은  
     특별한 날을 위한 물건이 아니라,  
